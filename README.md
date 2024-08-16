@@ -1,13 +1,14 @@
-🌐 ExtractDomains
+# 🌐 ExtractDomains
 Welcome to ExtractDomains, your go-to solution for extracting IP addresses and domain names directly from web pages. Whether you're hunting for assets, conducting reconnaissance, or just want to streamline your data extraction workflow, this tool is designed to make your life easier.
 
-✨ Features
+# ✨ Features
 Shodan Integration: Easily extract IP addresses from Shodan search results.
 Domain Extraction: Seamlessly pull domain names from any HTML content.
 Automated File Creation: Generate .txt files with your extracted data in just one click.
 User-Friendly: No more manual copying—everything is automated!
-🚀 Usage
-Shodan - Extract IP Addresses
+# 🚀 Usage
+
+## Shodan - Extract IP Addresses
 
 ```javascript
 // Select elements containing IP addresses (using the a.title.text-dark class)
@@ -39,7 +40,7 @@ if (ips.length > 0) {
 ```
 
 
-HackerOne - Extract Domain Names
+## HackerOne - Extract Domain Names
 
 ```javascript
 // Select all domains in text - Domain içeren tüm metinleri seç
@@ -59,7 +60,7 @@ a.click();
 document.body.removeChild(a);
 ```
 
-🛠️ Installation
+# 🛠️ Installation
 Clone the repository:
 
 ```bash
@@ -71,14 +72,14 @@ cd ExtractDomains
 Get started:
 Open the HTML file in your favorite browser and start extracting!
 
-🤝 Contributing
+# 🤝 Contributing
 Contributions are welcome! If you find a bug or have a feature request, feel free to open an issue or submit a pull request. Let’s make this tool better together!
 
-⭐ Support
+# ⭐ Support
 If this project helped you, please star the repository and share it with your network. Your support is much appreciated!
 
-📄 License
+# 📄 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-🚀 Let’s make data extraction easier and more efficient! Star the repo and spread the word!
+# 🚀 Let’s make data extraction easier and more efficient! Star the repo and spread the word!
 This format is engaging, organized, and encourages others to contribute and support the project. The use of emojis and clear section headings makes it visually appealing and easy to follow.
