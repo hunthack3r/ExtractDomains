@@ -62,11 +62,12 @@ document.body.removeChild(a);
 🛠️ Installation
 Clone the repository:
 
-
-    git clone https://github.com/yourusername/ExtractDomains.git
-
-    cd ExtractDomains
-
+```bash
+git clone https://github.com/yourusername/ExtractDomains.git
+```
+```bash
+cd ExtractDomains
+```
 Get started:
 Open the HTML file in your favorite browser and start extracting!
 
