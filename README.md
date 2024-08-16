@@ -1,4 +1,4 @@
-<marquee> # 🌐 ExtractDomains </marquee>
+# 🌐 ExtractDomains
 
 Welcome to ExtractDomains, your go-to solution for extracting IP addresses and domain names directly from web pages. Whether you're hunting for assets, conducting reconnaissance, or just want to streamline your data extraction workflow, this tool is designed to make your life easier.
 
