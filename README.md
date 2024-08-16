@@ -8,8 +8,8 @@ Automated File Creation: Generate .txt files with your extracted data in just on
 User-Friendly: No more manual copying—everything is automated!
 🚀 Usage
 Shodan - Extract IP Addresses
-javascript
-Kodu kopyala
+
+```
 // Select elements containing IP addresses (using the a.title.text-dark class)
 var ipElements = document.querySelectorAll('a.title.text-dark');
 
@@ -36,9 +36,12 @@ if (ips.length > 0) {
 } else {
     console.log("No IP addresses found. The element selection might be incorrect.");
 }
+```
+
+
 HackerOne - Extract Domain Names
-javascript
-Kodu kopyala
+
+```
 // Select all domains in text - Domain içeren tüm metinleri seç
 const domains = [...document.querySelectorAll('td, p')].map(el => el.textContent.trim());
 
@@ -54,13 +57,16 @@ a.download = 'domains.txt';
 document.body.appendChild(a);
 a.click();
 document.body.removeChild(a);
+```
+
 🛠️ Installation
 Clone the repository:
 
-bash
-Kodu kopyala
-git clone https://github.com/yourusername/ExtractDomains.git
-cd ExtractDomains
+
+    git clone https://github.com/yourusername/ExtractDomains.git
+
+    cd ExtractDomains
+
 Get started:
 Open the HTML file in your favorite browser and start extracting!
 
