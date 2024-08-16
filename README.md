@@ -9,7 +9,7 @@ User-Friendly: No more manual copying—everything is automated!
 🚀 Usage
 Shodan - Extract IP Addresses
 
-```
+```javascript
 // Select elements containing IP addresses (using the a.title.text-dark class)
 var ipElements = document.querySelectorAll('a.title.text-dark');
 
@@ -41,7 +41,7 @@ if (ips.length > 0) {
 
 HackerOne - Extract Domain Names
 
-```
+```javascript
 // Select all domains in text - Domain içeren tüm metinleri seç
 const domains = [...document.querySelectorAll('td, p')].map(el => el.textContent.trim());
 
